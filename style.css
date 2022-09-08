@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+#calculator {
+    border: solid;
+    margin: 50px;
+    padding: 20px;
+    background-color:aliceblue;
+    width: 260px;
+}
+.result {
+    color: aliceblue;
+    background-color:dimgray;
+    width: 260px;
+    padding: 5px 0;
+    margin: 0;
+    margin-bottom: 40px;
+    border: solid black;
+}
+
+button {
+    width: 50px;
+    padding: 10px 0;
+}
+
+.nums {
+    width: 160px;
+}
+.nums4 {
+    margin-left: 50px;
+}
+
+.operator {
+    width: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 260px;
+    margin: 0;
+    padding: 0;
+}

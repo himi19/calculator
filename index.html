@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/vue@next"></script>
+    </head>
+    <body>
+        <div id="calculator">
+            <h2>電 卓</h2>
+            <h5 class="result">　{{ display }}　</h5>
+            <ul>
+                <li class="nums">
+                    <div class="nums1">
+                        <button @click="getNum(1)">1</button>
+                        <button @click="getNum(2)">2</button>
+                        <button @click="getNum(3)">3</button>
+                    </div>
+                    <div class="nums2">
+                        <button @click="getNum(4)">4</button>
+                        <button @click="getNum(5)">5</button>
+                        <button @click="getNum(6)">6</button>
+                    </div>
+                    <div class="nums3">
+                        <button @click="getNum(7)">7</button>
+                        <button @click="getNum(8)">8</button>
+                        <button @click="getNum(9)">9</button>
+                    </div>
+                    <div class="nums4">
+                        <button @click="getNum(0)">0</button>
+                    </div>
+                </li>
+                <li class="operator">
+                    <button @click="plus(false)">+</button>
+                    <button @click="plus(true)">-</button>
+                    <button @click="times(false)">×</button>
+                    <button @click="times(true)">÷</button>
+                    <button @click="showAns">=</button>
+                    <button @click="clear">AC</button>
+                </li>
+            </ul>
+            <br><br>
+        </div>
+    </body>
+    <script src="./app.js"></script>
+</html>
