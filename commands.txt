@@ -1,4 +1,0 @@
-0-1. git init, git remote add origin {URL},
-     git branch -m master main
-0-2. git push origin HEAD
-0-3. npm run build
